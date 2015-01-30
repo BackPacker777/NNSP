@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+     <head>
+          <meta charset="utf-8">
+          <!--
+               AUTHOR: hbates@northmen.org
+               VERSION: 1.5
+               CREATED: 12.18.2013
+               PURPOSE: Form Sandbox
+          -->
+          <title>Nub's Nob Ski Patrol</title>
+
+          <link href="<% request.uri_base %>/css/normalize.css" rel="stylesheet">
+          <link href="<% request.uri_base %>/css/style.css" rel="stylesheet">
+
+          <script src="<% request.uri_base %>/javascripts/jquery-2.0.3.min.js"></script>
+          <script src="<% request.uri_base %>/javascripts/modernizr.js"></script>
+          <script src="<% request.uri_base %>/javascripts//webforms/webforms2.js"></script>
+          <script src="<% request.uri_base %>/javascripts/main.js"></script>
+
+     </head>
+     <body>
+          <% content %>
+     </body>
+</html>

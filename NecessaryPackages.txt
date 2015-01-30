@@ -1,0 +1,5 @@
+ppm install App::Cpanminus
+ppm install Moops
+ppm install Dancer
+ppm install Template-Toolkit
+cpanm Dancer2

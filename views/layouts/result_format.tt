@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+     <head>
+          <meta charset="utf-8">
+          <!--
+               AUTHOR: hbates@northmen.org
+               VERSION: 01.04.2014.1.9
+               CREATED: 12.18.2012
+               PURPOSE: NNSP Results Page for printing
+          -->
+          <title>Nub's Nob Incident Print Report</title>
+
+          <link href="<% request.uri_base %>/css/normalize.css" rel="stylesheet">
+          <link href="<% request.uri_base %>/css/result.css" rel="stylesheet">
+
+          <script src="<% request.uri_base %>/javascripts/jquery-2.0.3.min.js"></script>
+          <script src="<% request.uri_base %>/javascripts/modernizr.js"></script>
+          <script src="<% request.uri_base %>/javascripts/result.js"></script>
+
+     </head>
+     <body>
+          <% content %>
+     </body>
+</html>
